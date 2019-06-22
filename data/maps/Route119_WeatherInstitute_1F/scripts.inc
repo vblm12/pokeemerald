@@ -72,7 +72,7 @@ Route119_WeatherInstitute_1F_EventScript_26FB40:: @ 826FB40
 	end
 
 Route119_WeatherInstitute_1F_Text_26FB57: @ 826FB57
-	.string "The BOSS got interested in\n"
+	.string "The Boss got interested in\n"
 	.string "the research they have going here,\l"
 	.string "so he sent us out.\p"
 	.string "You quit meddling!$"
@@ -82,7 +82,7 @@ Route119_WeatherInstitute_1F_Text_26FBBB: @ 826FBBB
 	.string "Blasted by a kid…$"
 
 Route119_WeatherInstitute_1F_Text_26FBD7: @ 826FBD7
-	.string "Our BOSS knows everything.\p"
+	.string "Our Boss knows everything.\p"
 	.string "But I'm just a GRUNT. What would I know\n"
 	.string "about what he's thinking?$"
 
@@ -105,7 +105,7 @@ Route119_WeatherInstitute_1F_Text_26FCB7: @ 826FCB7
 
 Route119_WeatherInstitute_1F_Text_26FCE5: @ 826FCE5
 	.string "Wow, you're really strong!\p"
-	.string "I wish I could be a POKéMON TRAINER\n"
+	.string "I wish I could be a Pokémon Trainer\n"
 	.string "like you!$"
 
 Route119_WeatherInstitute_1F_Text_26FD2E: @ 826FD2E
@@ -119,7 +119,7 @@ Route119_WeatherInstitute_1F_Text_26FD2E: @ 826FD2E
 Route119_WeatherInstitute_1F_Text_26FDE8: @ 826FDE8
 	.string "On the 2nd floor of the INSTITUTE,\n"
 	.string "we study the weather patterns over\l"
-	.string "the HOENN region.\p"
+	.string "the Hoenn region.\p"
 	.string "We've been noticing temporary and\n"
 	.string "isolated cases of droughts and\l"
 	.string "heavy rain lately…$"

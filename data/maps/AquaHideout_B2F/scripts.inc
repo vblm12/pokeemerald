@@ -106,11 +106,11 @@ AquaHideout_B2F_Text_233FA6: @ 8233FA6
 
 AquaHideout_B2F_Text_233FF2: @ 8233FF2
 	.string "Hehehe!\p"
-	.string "Our BOSS has already gone on his way to\n"
+	.string "Our Boss has already gone on his way to\n"
 	.string "some cave under the sea!\p"
 	.string "If you're going to give chase, you'd\n"
 	.string "better search the big, wide sea beyond\l"
-	.string "LILYCOVE.\p"
+	.string "Lilycove.\p"
 	.string "But will you find it then?\n"
 	.string "Hehehe!$"
 
@@ -123,7 +123,7 @@ AquaHideout_B2F_Text_2340F0: @ 82340F0
 	.string "Lost and dazed…$"
 
 AquaHideout_B2F_Text_234112: @ 8234112
-	.string "BOSS…\n"
+	.string "Boss…\n"
 	.string "Is this good enough?$"
 
 AquaHideout_B2F_Text_23412D: @ 823412D
@@ -140,12 +140,12 @@ AquaHideout_B2F_Text_2341CE: @ 82341CE
 
 AquaHideout_B2F_Text_2341FE: @ 82341FE
 	.string "That reminds me… I can't remember\n"
-	.string "where I put the MASTER BALL.\p"
-	.string "If I fail to guard it, our BOSS will\n"
+	.string "where I put the Master Ball.\p"
+	.string "If I fail to guard it, our Boss will\n"
 	.string "chew me out…$"
 
 AquaHideout_B2F_Text_23426F: @ 823426F
-	.string "When I joined TEAM AQUA, the first\n"
+	.string "When I joined Team Aqua, the first\n"
 	.string "thing I had to learn was how these\l"
 	.string "warp panels connected.$"
 

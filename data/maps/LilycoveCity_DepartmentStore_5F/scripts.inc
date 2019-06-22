@@ -151,12 +151,12 @@ LilycoveCity_DepartmentStore_5F_EventScript_2200BC:: @ 82200BC
 	end
 
 LilycoveCity_DepartmentStore_5F_Text_2200C5: @ 82200C5
-	.string "This place is full of cute DOLLS.\p"
+	.string "This place is full of cute Dolls.\p"
 	.string "I should buy some for me, instead of\n"
 	.string "just for my children.$"
 
 LilycoveCity_DepartmentStore_5F_Text_220122: @ 8220122
-	.string "I'm not big enough to raise POKéMON,\n"
+	.string "I'm not big enough to raise Pokémon,\n"
 	.string "so I'm getting a cute DOLL instead.$"
 
 LilycoveCity_DepartmentStore_5F_Text_22016B: @ 822016B

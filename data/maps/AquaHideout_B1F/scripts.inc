@@ -143,21 +143,21 @@ AquaHideout_B1F_Text_233C41: @ 8233C41
 
 AquaHideout_B1F_Text_233C89: @ 8233C89
 	.string "Yawn… Keeping watch over the\n"
-	.string "HIDEOUT bores me. I'll take you on.$"
+	.string "Hideout bores me. I'll take you on.$"
 
 AquaHideout_B1F_Text_233CCA: @ 8233CCA
 	.string "Yawn…\n"
 	.string "Oh, I lost…$"
 
 AquaHideout_B1F_Text_233CDC: @ 8233CDC
-	.string "If you scurry too much, other TEAM\n"
-	.string "AQUA members might get you.$"
+	.string "If you scurry too much, other Team\n"
+	.string "Aqua members might get you.$"
 
 AquaHideout_B1F_Text_233D1B: @ 8233D1B
 	.string "Hey!\n"
 	.string "You there!\p"
 	.string "Which do you think is cooler?\n"
-	.string "TEAM AQUA's uniform or TEAM MAGMA's?$"
+	.string "Team Aqua's uniform or Team Magma's?$"
 
 AquaHideout_B1F_Text_233D6E: @ 8233D6E
 	.string "I lost in a cool way…$"

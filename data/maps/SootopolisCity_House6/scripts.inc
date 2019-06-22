@@ -37,7 +37,7 @@ SootopolisCity_House6_Text_226FC3: @ 8226FC3
 	.string "Hello! You're our first guest in\n"
 	.string "a good while.\p"
 	.string "You've brightened up my day, so I'll\n"
-	.string "give you a big WAILMER DOLL.$"
+	.string "give you a big Wailmer DOLL.$"
 
 SootopolisCity_House6_Text_227034: @ 8227034
 	.string "Take good care of it!$"

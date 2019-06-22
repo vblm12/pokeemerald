@@ -92,10 +92,10 @@ FortreeCity_House1_Text_2164DB: @ 82164DB
 	.string "I hope you do the same with PLUSLE!$"
 
 FortreeCity_House1_Text_21653B: @ 821653B
-	.string "Trading POKéMON with others…\p"
+	.string "Trading Pokémon with others…\p"
 	.string "It's as if you're trading your own\n"
 	.string "memories with other people.$"
 
 FortreeCity_House1_Text_216597: @ 8216597
-	.string "ZIGZAGOON: Gumomoh?$"
+	.string "Zigzagoon: Gumomoh?$"
 

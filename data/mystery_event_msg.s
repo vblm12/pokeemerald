@@ -100,10 +100,10 @@ SurfPichu_Slot5: @ 8674DD8
 	return
 
 sText_MysteryGiftEgg:
-	.string "Thank you for using the MYSTERY\nGIFT System.\pFrom the POKéMON CENTER we\nhave a gift--a POKéMON EGG!\pPlease raise it with love and\nkindness.$"
+	.string "Thank you for using the MYSTERY\nGIFT System.\pFrom the Pokémon Center we\nhave a gift--a Pokémon Egg!\pPlease raise it with love and\nkindness.$"
 
 sText_FullParty:
-	.string "Oh, your party appears to be full.\pPlease come see me after storing\na POKéMON on a PC.$"
+	.string "Oh, your party appears to be full.\pPlease come see me after storing\na Pokémon on a PC.$"
 
 MysteryEventScript_VisitingTrainer:: @ 8674EC1
 	setvaddress MysteryEventScript_VisitingTrainer
@@ -121,17 +121,17 @@ MysteryEventScript_VisitingTrainer:: @ 8674EC1
 MysteryEventScript_VisitingTrainerArrived: @ 8674EDF
 	lock
 	faceplayer
-	vmessage sText_MysteryGiftVisitingTrainer_2
+	vmessage sText_MysteryGiftVisitingTRAINER_2
 	waitmessage
 	waitbuttonpress
 	release
 	end
 
 sText_MysteryGiftVisitingTrainer:
-	.string "Thank you for using the MYSTERY\nGIFT System.\pBy holding this WONDER CARD, you\nmay take part in a survey at a\lPOKéMON MART.\pUse these surveys to invite\nTRAINERS to SOOTOPOLIS CITY.\p…Let me give you a secret\npassword for a survey:\p“GIVE ME\nAWESOME TRAINER”\pWrite that in on a survey and send\nit to the WIRELESS\lCOMMUNICATION SYSTEM.$"
+	.string "Thank you for using the MYSTERY\nGIFT System.\pBy holding this WONDER CARD, you\nmay take part in a survey at a\lPokémon Mart.\pUse these surveys to invite\nTRAINERS to Sootopolis City.\p…Let me give you a secret\npassword for a survey:\p“GIVE ME\nAWESOME Trainer”\pWrite that in on a survey and send\nit to the WIRELESS\lCOMMUNICATION SYSTEM.$"
 
-sText_MysteryGiftVisitingTrainer_2:
-	.string "Thank you for using the MYSTERY\nGIFT System.\pA TRAINER has arrived in\nSOOTOPOLIS CITY looking for you.\pWe hope you will enjoy\nbattling the visiting TRAINER.\pYou may invite other TRAINERS by\nentering other passwords.\pTry looking for other passwords\nthat may work.$"
+sText_MysteryGiftVisitingTRAINER_2:
+	.string "Thank you for using the MYSTERY\nGIFT System.\pA Trainer has arrived in\nSOOTOPOLIS City looking for you.\pWe hope you will enjoy\nbattling the visiting Trainer.\pYou may invite other Trainers by\nentering other passwords.\pTry looking for other passwords\nthat may work.$"
 
 MysteryEventScript_BattleCard:: @ 867513C
 	setvaddress MysteryEventScript_BattleCard
@@ -161,7 +161,7 @@ MysteryEventScript_BattleCardInfo: @ 8675179
 	end
 
 sText_MysteryGiftBattleCountCard:
-	.string "Thank you for using the MYSTERY\nGIFT System.\pYour BATTLE COUNT CARD keeps\ntrack of your battle record against\lTRAINERS with the same CARD.\pLook for and battle TRAINERS who\nhave the same CARD as you.\pYou may check the overall rankings\nby reading the NEWS.\pPlease do give it a try!$"
+	.string "Thank you for using the MYSTERY\nGIFT System.\pYour BATTLE COUNT CARD keeps\ntrack of your battle record against\lTRAINERS with the same CARD.\pLook for and battle Trainers who\nhave the same CARD as you.\pYou may check the overall rankings\nby reading the NEWS.\pPlease do give it a try!$"
 
 sText_MysteryGiftBattleCountCard_2:
 	.string "Thank you for using the MYSTERY\nGIFT System.\pCongratulations!\pYou have won a prize for winning\nthree battles!\pWe hope you will be inspired to\nbattle some more.$"
@@ -210,13 +210,13 @@ sText_AuroraTicket1:
 	.string "Thank you for using the MYSTERY\nGIFT System.\pYou must be {PLAYER}.\nThere is a ticket here for you.$"
 
 sText_AuroraTicket2:
-	.string "It appears to be for use at the\nLILYCOVE CITY port.\pWhy not give it a try and see what\nit is about?$"
+	.string "It appears to be for use at the\nLILYCOVE City port.\pWhy not give it a try and see what\nit is about?$"
 
 sText_AuroraTicketGot:
 	.string "Thank you for using the MYSTERY\nGIFT System.$"
 
 sText_AuroraTicketNoPlace:
-	.string "Oh, I'm sorry, {PLAYER}.\nYour BAG's KEY ITEMS POCKET is full.\pPlease store something on your PC,\nthen come back for this.$"
+	.string "Oh, I'm sorry, {PLAYER}.\nYour Bag's Key ItemS Pocket is full.\pPlease store something on your PC,\nthen come back for this.$"
 
 MysteryEventScript_MysticTicket:: @ 867550B
 	setvaddress MysteryEventScript_MysticTicket
@@ -264,13 +264,13 @@ sText_MysticTicket2:
 	.string "Thank you for using the MYSTERY\nGIFT System.\pYou must be {PLAYER}.\nThere is a ticket here for you.$"
 
 sText_MysticTicket1:
-	.string "It appears to be for use at the\nLILYCOVE CITY port.\pWhy not give it a try and see what\nit is about?$"
+	.string "It appears to be for use at the\nLILYCOVE City port.\pWhy not give it a try and see what\nit is about?$"
 
 sText_MysticTicketGot:
 	.string "Thank you for using the MYSTERY\nGIFT System.$"
 
 sText_MysticTicketNoPlace:
-	.string "Oh, I'm sorry, {PLAYER}.\nYour BAG's KEY ITEMS POCKET is full.\pPlease store something on your PC,\nthen come back for this.$"
+	.string "Oh, I'm sorry, {PLAYER}.\nYour Bag's Key ItemS Pocket is full.\pPlease store something on your PC,\nthen come back for this.$"
 
 MysteryEventScript_AlteringCave:: @ 86756E3
 	setvaddress MysteryEventScript_AlteringCave
@@ -288,7 +288,7 @@ MysteryEventScript_AlteringCave_: @ 86756FD
 	end
 
 sText_MysteryGiftAlteringCave::
-	.string "Thank you for using the MYSTERY\nGIFT System.\pThere appears to be a rumor about\nrare POKéMON sightings.\pThe sightings reportedly came from\nthe ALTERING CAVE on ROUTE 103.\pPerhaps it would be worthwhile for\nyou to investigate this rumor.$"
+	.string "Thank you for using the MYSTERY\nGIFT System.\pThere appears to be a rumor about\nrare Pokémon sightings.\pThe sightings reportedly came from\nthe ALTERING CAVE on Route 103.\pPerhaps it would be worthwhile for\nyou to investigate this rumor.$"
 
 MysteryEventScript_OldSeaMap:: @ 86757F4
 	setvaddress MysteryEventScript_OldSeaMap
@@ -334,10 +334,10 @@ sText_MysteryGiftOldSeaMap:
 	.string "Thank you for using the MYSTERY\nGIFT System.\pLet me confirm--you are {PLAYER}?\pWe received this OLD SEA MAP\naddressed to you.$"
 
 sText_MysteryGiftOldSeaMap_1:
-	.string "It appears to be for use at the\nLILYCOVE CITY port.\pWhy not give it a try and see what\nit is about?$"
+	.string "It appears to be for use at the\nLILYCOVE City port.\pWhy not give it a try and see what\nit is about?$"
 
 sText_MysteryGiftOldSeaMap_2:
 	.string "Thank you for using the MYSTERY\nGIFT System.$"
 
 sText_MysteryGiftOldSeaMap_3:
-	.string "Oh, I'm sorry, {PLAYER}.\nYour BAG's KEY ITEMS POCKET is full.\pPlease store something on your PC,\nthen come back for this.$"
+	.string "Oh, I'm sorry, {PLAYER}.\nYour Bag's Key ItemS Pocket is full.\pPlease store something on your PC,\nthen come back for this.$"
